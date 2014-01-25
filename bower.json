@@ -1,0 +1,24 @@
+{
+  "name": "ng-ladda",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ecentinela/ng-ladda",
+  "authors": [
+    "Javier Martínez Fernández <ecentinela@gmail.com>"
+  ],
+  "description": "Ladda directive for Angular",
+  "main": "dist/ng-ladda.js",
+  "keywords": [
+    "ladda",
+    "angular",
+    "directive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.2.9",
+    "ladda": "~0.9.2"
+  }
+}

@@ -4,7 +4,10 @@
  * @version 0.1.0
  */
 
+/* global angular, Ladda */
+
 (function () {
+  'use strict';
 
   angular.module('ngLadda', []).directive(
     'ngLadda',
