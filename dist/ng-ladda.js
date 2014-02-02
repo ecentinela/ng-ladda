@@ -28,7 +28,7 @@
                   if (angular.isNumber(newVal)) {
                     ladda.setProgress(newVal / 100);
                   }
-                } else {
+                } else if (ladda.isLoading()) {
                   ladda.stop();
                 }
               });
